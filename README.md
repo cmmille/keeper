@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Keeper App (Google Keep Clone)
+Demo application using React.js and hooks to replicate the base functionality of Google Keep. 
+
+# The following README comes from [Create React App](https://github.com/facebook/create-react-app):
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
