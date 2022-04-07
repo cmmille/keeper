@@ -1,0 +1,32 @@
+.note{
+    text-align: left;
+    width: 20vw;
+    border-radius: 6px;
+    padding: 20px;
+    padding-bottom: 5px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.4);
+}
+.container{
+    flex-direction: column;
+}
+.note-header{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.delete{
+    color: #f5ba13;
+    cursor: pointer;
+}
+.delete:hover{
+    color: gold;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 600px) {
+    .note{
+        width: 80vw;
+    }
+}

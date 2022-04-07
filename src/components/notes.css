@@ -1,0 +1,15 @@
+.notes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    margin: auto;
+    max-width: 95%;
+}
+
+@media (max-width: 600px) {
+    .notes{
+        flex-direction: column;
+    }
+}
