@@ -23,6 +23,10 @@
     color: gold;
     text-decoration: underline;
 }
+button{
+    background-color: white;
+    border: none;
+}
 
 
 @media (max-width: 600px) {

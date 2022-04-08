@@ -1,4 +1,5 @@
 import "./note.css";
+import DeleteIcon from '@mui/icons-material/Delete';
 
 function Note(props) {
   return (
@@ -7,9 +8,9 @@ function Note(props) {
         <div className="note-header">{props.noteHeader}</div>
         <div className="note-body">{props.noteBody}</div>
         <div className="right-container">
-          <span className="delete" onClick={() => {
+          <button className="delete" onClick={() => {
               props.deleteNote(props.id)
-          }}>DELETE</span>
+          }}><DeleteIcon/></button>
         </div>
       </div>
     </div>
