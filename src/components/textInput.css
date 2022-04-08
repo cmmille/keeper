@@ -1,7 +1,10 @@
+*{
+    outline: none;
+}
 .text-input{
     max-width: 25rem;
     margin: 15px auto;
-    padding: 15px;
+    padding: 10px;
     border-radius: 6px;
     box-shadow: 0 2px 5px rgb(0, 0, 0, 0.4);
 }
@@ -14,8 +17,22 @@
 .new-note{
     font-size: 1rem;
     padding: 7.5px;
-    min-height: 4rem;
+    /* min-height: 4rem; */
     resize: none;
     border: none;
     margin-bottom: 10px;
+}
+.btn{
+    font-size: 2.5rem;
+    border-radius: 50%;
+    color: white;
+    background-color: #f5ba13;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+.btn:hover{
+   background-color: gold;
 }
